@@ -3,19 +3,19 @@ This repository contains a fully convolutional autoencoder for noise removal fro
 
 ### Results :  
  * **Grayscale : Dataset vs Noisy Samples** :  
-  - ![Pure vs Noisy](assets/img_comparison.png "Pure vs Noisy")  
+ ![Pure vs Noisy](assets/img_comparison.png "Pure vs Noisy")  
 
 
  * **Grayscale : Noisy samples vs Reconstructed Images** :  
-  - ![Noisy vs Recon](assets/denoised_images.png "Noisy vs Reconstructed")
+ ![Noisy vs Recon](assets/denoised_images.png "Noisy vs Reconstructed")
 
 
  * **Color : Original Image Reconstructions** :
-  - ![Reconstructions](assets/original.png "Reconstructions")  
+ ![Reconstructions](assets/original.png "Reconstructions")  
 
 
  * **Color : Noise Removal** :
-  - ![Noise removed](assets/fine_tuned.png "Noise removed")
+ ![Noise removed](assets/fine_tuned.png "Noise removed")
 
 The reconstucted images shown above are blurred due to computational constraints on the model architecture.  
 **PS** : The saved model can be found in ```model``` directory and it is recommended to run the code in ```Google Colab``` to prevent dangling dependencies.
